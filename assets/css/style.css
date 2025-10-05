@@ -16,6 +16,7 @@ h1 {
     color: rgb(77, 37, 37);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 p {
     color: #ff0000;
     text-align: center;
@@ -31,7 +32,6 @@ p2 {
     line-height: 1.6;
     margin: 10px 0;
     animation: slideIn 3s ease-in-out infinite alternate;
-
 }
 
 @keyframes slideIn {
@@ -51,7 +51,6 @@ p2 {
         transform: translateY(-7px);
         opacity: 0.60;
     }
-
     100% {
         transform: translateY(-10px);
         opacity: 0.50;
@@ -198,7 +197,7 @@ p2 {
 
 .content button {
     padding: 10px 24px;
-    background: #667eea6c;
+    background: rgba(102, 126, 234, 0.42);
     color: white;
     border: none;
     border-radius: 5px;
@@ -208,15 +207,15 @@ p2 {
 }
 
 .content button:hover {
-    background: #5568d374;
+    background: rgba(85, 104, 211, 0.45);
 }
 
 .content button.secondary-btn {
-    background: #764ba254;
+    background: rgba(118, 75, 162, 0.33);
 }
 
 .content button.secondary-btn:hover {
-    background: #633d8a6e;
+    background: rgba(99, 61, 138, 0.43);
 }
 
 .hidden {
@@ -270,3 +269,5 @@ p2 {
 .footer-links span {
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* Ajuster le body pour éviter que le contenu ne soit caché par le footer */
