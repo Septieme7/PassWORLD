@@ -65,7 +65,7 @@ p2 {
 .login-box {
     /* Image de fond pour la boîte de login */
     background-color: #0066ff;
-    background-image: url('../images/cafardONLY.png');
+    background-image: url('assets/images/CafardONLY.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;    
@@ -160,7 +160,7 @@ p2 {
 
 .content {
     background-color: #0066ff;
-    background-image: url(../images/cafardONLY.png);
+    background-image: url(assets/images/CafardONLY.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
