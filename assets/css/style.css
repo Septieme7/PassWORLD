@@ -3,8 +3,7 @@ body {
     margin: 0;
     padding: 0;
     padding-bottom: 80px; /* Espace pour le footer */
-    background-image: url('../assets/images/TC.jpg');
-    background-size: cover;
+    background-image: url('/assets/images/TC.jpg');
     background-position: center;
     min-height: 100vh;
     display: flex;
@@ -161,7 +160,7 @@ p2 {
 
 .content {
     background-color: #0066ff;
-    background-image: url(../images/CafardONLY.png) transparent;
+    background-image: url('../images/CafardONLY.png') transparent;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
