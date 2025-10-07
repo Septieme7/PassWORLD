@@ -159,7 +159,7 @@ p2 {
 
 .content {
     background-color: #0066ff;
-    background-image: url(/assets/images/CafardONLY.png);
+    background-image: url(assets/images/CafardONLY.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -270,4 +270,3 @@ p2 {
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* Ajuster le body pour éviter que le contenu ne soit caché par le footer */
